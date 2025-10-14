@@ -1,2 +1,2 @@
 # python
-I will post here all the learning of the data science course.
+This repository contains my complete Data Science and Python learning journey from scratch.
