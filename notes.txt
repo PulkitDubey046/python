@@ -1,2 +1,11 @@
 Input Function: 
     input() is used to take input from the user
+
+
+Espace Sequences in Python:
+    1. \n - new/next line
+    2. \t - tab
+    3. \\ - backslash
+    4. \' - insert a single quote
+    5. \" - insert a double quote
+    
