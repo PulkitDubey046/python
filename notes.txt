@@ -9,3 +9,73 @@ Espace Sequences in Python:
     4. \' - insert a single quote
     5. \" - insert a double quote
     
+
+Operations on Strings:
+
+    1. Membership Operators
+        Used to check if a substring is present in a string.
+
+        Operators:
+                in → returns True if substring exists.
+                not in → returns True if substring does NOT exist.
+
+        Examples:
+                "Hello" in text
+                "Hi" not in text
+
+    2. strip()
+        Removes spaces from both ends of a string.
+
+        Example:
+            " hello ".strip() → "hello"
+
+        Can also remove specific characters:
+            "###hi###".strip("#") → "hi"
+
+    3. replace()
+        Replaces part of a string with another string.
+
+        Format:
+            string.replace(old, new)
+
+        Example:
+            "I like apples".replace("apples", "oranges")
+                → "I like oranges"
+
+        Can also limit replacements:    
+            "aaa".replace("a", "b", 2) → "bba"
+
+    4. count()
+        Returns how many times a substring appears in a string.
+
+        Example:
+            "banana".count("a") → 3
+
+    5. Case Functions
+
+        a. upper() → converts all letters to uppercase.
+            "hello".upper() → "HELLO"
+
+        b. lower() → converts all letters to lowercase.
+            "HELLO".lower() → "hello"
+
+        c. title() → makes the first letter of each word uppercase.
+            "hello world".title() → "Hello World"
+
+        d. capitalize() → capitalizes the first letter of the string.
+            "python is fun".capitalize() → "Python is fun"
+
+
+    6. startswith()
+        Checks if a string begins with a specified substring.
+        Returns True or False.
+
+        Example:
+            "python".startswith("py") → True
+
+    7. endswith()
+        Checks if a string ends with a specified substring.
+        Returns True or False.
+
+        Example:
+            "python".endswith("on") → True
