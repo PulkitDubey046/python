@@ -1,4 +1,4 @@
-# 8. LOOPING THROUGH A DICTIONARY
+# LOOPING THROUGH A DICTIONARY
 # Definition: items() returns key-value pairs.
 # Syntax:
 #   for key, value in dictionary.items():
